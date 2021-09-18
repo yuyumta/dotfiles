@@ -1,8 +1,9 @@
 # misc
 ignore conky
+ignore LiveSplit.exe
 sticky yes
 snapdist 5
-
+borderwidth 0
 
 # colors
 color font "#c6c5c6"
@@ -12,8 +13,9 @@ color menufg "#c6c5c6"
 color urgencyborder "#911d21"
 
 # app menu
+command file manager	pcmanfm
 command firefox		firefox
-command top		"urxvt -e top"
+command htop		"urxvt -e htop"
 
 # binds
 bind-key M-1		group-only-1
@@ -25,3 +27,7 @@ bind-key MS-3           window-movetogroup-3
 bind-key MS-f		window-group		
 
 bind-key CM-Return	urxvt
+bind-key S-XF86Launch6	/home/yuyu/Scripts/screenshot.sh
+bind-key XF86Launch6	/home/yuyu/Scripts/vol-up.sh
+bind-key XF86Launch5	/home/yuyu/Scripts/vol-down.sh
+bind-key Home		/home/yuyu/Scripts/livesplit.sh
