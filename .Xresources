@@ -2,7 +2,7 @@
 
 ! special
 *.foreground: #c6c5c6
-*.background: #1d1f21
+!*.background: #1d1f21
 *.cursorColor: #c5c8c6
 
 ! black
@@ -39,7 +39,7 @@
 
 
 !! URxvt Appearance
-URxvt.font: xft:mono:pixelsize=14:antialias=true
+URxvt.font: -*-terminus-medium-r-normal-*-20-*-*-*-*-*-iso10646-1
 URxvt.geometry: 82x27
 URxvt.internalBorder: 4
 URxvt.cursorBlink: true
@@ -48,8 +48,8 @@ URxvt.saveline: 2048
 URxvt.scrollBar: false
 URxvt.scrollBar_right: false
 URxvt.urgentOnBell: true
-URxvt.depth: 24
-URxvt.iso14755: false
+URxvt.depth: 32
+URxvt.background: rgba:0000/0000/0200/c800
 
 !! URxvt Functions
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
@@ -57,6 +57,8 @@ URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
 
 !! URxvt Misc
 URxvt*termName: rxvt-unicode
+URxvt.iso14755: false
+URxvt.urlLauncher: firefox
 
 !! XClock
 XClock.input: false
