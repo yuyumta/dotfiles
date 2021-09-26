@@ -8,3 +8,5 @@ how 2 https://ffprofile.com/
 6. completely clear the directory
 7. extract the zips into the directory
 8. profits
+
+also go about:config and search for "ui.key.menu" then disable any options that show up :))
