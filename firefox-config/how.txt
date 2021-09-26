@@ -1,0 +1,10 @@
+how 2 https://ffprofile.com/
+
+1. go start firefox and go to about:profiles
+2. create new profile
+3. start that new config in a new window or something like that
+4. go to the config's directory
+5. close the browser
+6. completely clear the directory
+7. extract the zips into the directory
+8. profits
