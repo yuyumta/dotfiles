@@ -32,6 +32,10 @@ bind-key MS-3           window-movetogroup-3
 bind-key MS-f           window-group
 
 bind-key CM-Return	urxvt
-bind-key Print          /home/yuyu/Scripts/screenshot.sh
-bind-key S-XF86Launch6  /home/yuyu/Scripts/vol-up.sh
-bind-key S-XF86Launch5  /home/yuyu/Scripts/vol-down.sh
+bind-key Print          $HOME/Scripts/screenshot.sh
+bind-key S-XF86Launch6  $HOME/Scripts/vol-up.sh
+bind-key S-XF86Launch5  $HOME/Scripts/vol-down.sh
+# you should also make sure to add the DontZap flag to xorg.conf, otherwise 
+# one could just ctrl+alt+backspace to kill the x session and gain control
+# since the tty is still logged in
+bind-key CM-l           $HOME/Scripts/lock.sh
