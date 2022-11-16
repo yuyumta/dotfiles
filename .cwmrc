@@ -1,33 +1,37 @@
 # misc
-ignore conky
-ignore LiveSplit.exe
 sticky yes
 snapdist 5
 borderwidth 0
+gap 24 0 0 0
+ignore polybar
+ignore xclock
+autogroup 0 "polybar"
+# fonts
+fontname "Terminus:pixelsize=18:regular"
 
 # colors
 color font "#c6c5c6"
 color selfont "#1d1f21"
-color menubg "#1d1f21"
+color menubg "#000000"
 color menufg "#c6c5c6"
 color urgencyborder "#911d21"
 
 # app menu
-command file manager	pcmanfm
-command firefox		firefox
-command htop		"urxvt -e htop"
+command keepass         keepassxc
+command file manager    pcmanfm
+command firefox         firefox
+command htop            "urxvt -e htop"
 
 # binds
-bind-key M-1		group-only-1
-bind-key M-2		group-only-2
-bind-key M-3		group-only-3
-bind-key MS-1		window-movetogroup-1
+bind-key M-1            group-only-1
+bind-key M-2            group-only-2
+bind-key M-3            group-only-3
+bind-key MS-1           window-movetogroup-1
 bind-key MS-2           window-movetogroup-2
 bind-key MS-3           window-movetogroup-3
-bind-key MS-f		window-group		
+bind-key MS-f           window-group
 
 bind-key CM-Return	urxvt
-bind-key S-XF86Launch6	/home/yuyu/Scripts/screenshot.sh
-bind-key XF86Launch6	/home/yuyu/Scripts/vol-up.sh
-bind-key XF86Launch5	/home/yuyu/Scripts/vol-down.sh
-bind-key Home		/home/yuyu/Scripts/livesplit.sh
+bind-key Print          /home/yuyu/Scripts/screenshot.sh
+bind-key S-XF86Launch6  /home/yuyu/Scripts/vol-up.sh
+bind-key S-XF86Launch5  /home/yuyu/Scripts/vol-down.sh
